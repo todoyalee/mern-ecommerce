@@ -6,10 +6,11 @@ const NavLinks = () => {
             <nav className="nav__bottom__container">
                 <div className="bottom__container">
                     <ul className="nav">
-                        <li className='nav-link'><Link to="/">Home</Link></li> 
-                        <li className='nav-link'><Link to="/shop">Shop</Link> </li>
-                        <li className='nav-link'><Link to="/category/men">Men</Link></li> 
-                        <li className='nav-link'><Link to="/category/women">Women</Link></li> 
+                    <li className='nav-link'><Link to="/">Home</Link></li> 
+                        <li className='nav-link'><Link to="/Card/Wishlist">ABOUT</Link></li> 
+                        <li className='nav-link'><Link to="/category/men">SERVICES</Link> </li>
+                        <li className='nav-link'><Link to="/category/men">BLOG</Link></li> 
+                        <li className='nav-link'><Link to="/category/women">CONTACT</Link></li> 
                         <li className='nav-link'><Link to="/category/kids">Kids</Link></li>
                     </ul>
                 </div>

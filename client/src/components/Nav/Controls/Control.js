@@ -1,37 +1,44 @@
-import './Control.css'
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import Badge from '@mui/material/Badge';
+import './control2.css'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
+
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 import { Link } from 'react-router-dom';
-import Cart from '../../Card/Cart/Cart';
-import { useContext } from 'react';
-import { WishItemsContext } from '../../../Context/WishItemsContext';
-
-const Control = () => {
-    const wishItems = useContext(WishItemsContext)
-
+const Footer = () => {
     return ( 
-        <div className="control__bar__container">
-            <div className="controls__container">
-                <div className="control">
-                    <Link to="/account/login">
-                        <PersonOutlineIcon color="black" size="large" sx={{ width: '35px'}}/>
-                    </Link>
-                </div>
-                <div className="control">
-                    <Link to="/wishlist">
-                        <Badge badgeContent={wishItems.items.length} color="error">
-                            <FavoriteBorderIcon color="black" sx={{ width: '35px'}}/>
-                        </Badge>
-                    </Link>
-                </div>
-                <div className="control">
-                    <Cart />
+        <footer>
+            
+                    <div className="footer__social__link__container">
+                        <div className="footer__social__link__header">
+                            
+                        </div>
+                    <ul className="footer__social__links">
+                            <li className="social__link">
+                            <a href="https://twitter.com/" ><TwitterIcon /></a>
+                            </li>
+                            <li className="social__link">
+                            <a href="https://twitter.com/" > <InstagramIcon /></a>
+                            </li>
+                            <li className="social__link">
+                            <a href="https://twitter.com/" > <YouTubeIcon /></a>
+                            </li>
+                            <li className="social__link">
+                            <a href="https://twitter.com/" > <TelegramIcon /></a>
+                            </li>
+                            <li className="social__link">
+                            <a href="https://twitter.com/" >  <PinterestIcon /></a>
+                            </li>
+                        </ul>
                 </div>
                 
-            </div>
-        </div>
+
+            
+        </footer>
      );
 }
  
-export default Control;
+export default Footer;

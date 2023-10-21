@@ -11,15 +11,15 @@
 }
 
 .search__form__input {
-    width: 100%;
+    width: 50%;
     height: 45px;
     /* border-radius: 30px; */
     outline: none;
-    padding-left: 25px;
+    
     font-size: .9rem;
     border-color: #FFE26E;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .search__form__button {
@@ -28,12 +28,12 @@
     width: 50px;
     background-color: #FFE26E;;
     color: rgb(0, 0, 0);
-    right: 0px;
+    right: 300px;
     font-weight: bold;
     border-color: #FFE26E;
     border-style: solid;
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;

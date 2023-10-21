@@ -7,19 +7,18 @@ import './Container.css'
 const Navtop = () => {
     return ( 
             <div className="nav__top__container">
-                <div className="top__container">
-                    <NavBrand />
+                                    <div className="control__bar">
+                        <Control />
+                    </div>
                     <div className="form__container">
                         <Form />
                     </div>
-                    <div className="control__bar">
-                        <Control />
-                    </div>
+x
                     <div className="drawer">
                         <DrawerNav />
                     </div>
                 </div>
-            </div>
+            
      );
 }
  
