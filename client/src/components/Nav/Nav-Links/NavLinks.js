@@ -9,7 +9,7 @@ const NavLinks = () => {
                     <li className='nav-link'><Link to="/">Home</Link></li> 
                         <li className='nav-link'><Link to="/Card/Wishlist">ABOUT</Link></li> 
                         <li className='nav-link'><Link to="/category/men">SERVICES</Link> </li>
-                        <li className='nav-link'><Link to="/category/men">BLOG</Link></li> 
+                        <li className='nav-link'><Link to="/blog/blog-details">BLOG</Link></li> 
                         <li className='nav-link'><Link to="/category/women">CONTACT</Link></li> 
                         <li className='nav-link'><Link to="/category/kids">Kids</Link></li>
                     </ul>
